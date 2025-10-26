@@ -1,0 +1,31 @@
+# Ignore large datasets
+Datasets
+sounddata_cache/
+soundata_datasets/
+
+# Ignore any hidden soundata downloads
+.soundata/
+~/.soundata/
+
+# Ignore audio and large media files (general rule)
+*.wav
+*.mp3
+*.flac
+*.aiff
+*.zip
+*.tar.gz
+
+# Ignore notebooks checkpoints, compiled files, etc.
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+*.egg-info/
+*.pkl
+*.h5
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
